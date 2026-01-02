@@ -1,2 +1,2 @@
-# software-de-jogos
+# Software de Jogos
 Projeto de Banco de Dados
