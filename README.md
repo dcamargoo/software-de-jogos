@@ -52,3 +52,4 @@ O projeto foi desenvolvido nas seguintes etapas:
 - MySQL
 - Python
 - Excel
+- MySQL Workbench
