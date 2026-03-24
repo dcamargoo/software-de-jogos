@@ -2,7 +2,7 @@
 
 ## Projeto de Banco de Dados
 
-Este projeto tem como objetivo modelar e implementar um banco de dados para uma plataforma de venda de jogos online. A proposta consiste em desenvolver uma estrutura capaz de armazenar, organizar e relacionar informações importantes do sistema, permitindo o gerenciamento eficiente de usuários, jogos, expansões e avaliações.
+Este projeto tem como objetivo modelar e implementar um banco de dados relacional para uma plataforma de venda de jogos online. A proposta consiste em desenvolver uma estrutura capaz de armazenar, organizar e relacionar informações importantes do sistema, permitindo o gerenciamento eficiente de usuários, jogos, expansões e avaliações.
 
 A plataforma foi idealizada para possibilitar que usuários comprem jogos, descubram novos títulos, adquiram expansões e realizem avaliações sobre os produtos disponíveis. Nesse contexto, o banco de dados exerce papel fundamental no suporte às operações da aplicação, contribuindo para o controle das informações e para futuras análises estratégicas do negócio.
 
