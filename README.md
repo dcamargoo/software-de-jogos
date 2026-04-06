@@ -65,7 +65,7 @@ Certifique-se de ter instalado:
 
 ---
 
-### 2. Configurar o Banco de Dados
+### 2. Configurar o banco de dados
 
 1. Abra o DBeaver e conecte ao MySQL  
 2. Crie um novo banco de dados (ex: `software_jogos`)  
@@ -78,7 +78,7 @@ insert.sql
 
 ---
 
-### 3. Instalar Dependências
+### 3. Instalar dependências
 
 No terminal, dentro da pasta do projeto:
 
@@ -88,7 +88,7 @@ pip install -r requirements.txt
 
 ---
 
-### 4. Conexão do Banco de Dados no Python
+### 4. Conexão do banco de dados no Python
 
 Se for necessário, mude o host e password nessa linha do arquivo main.py:
 
