@@ -7,7 +7,7 @@ def showMenu():
 
 print("\nIniciando conexão...")
 
-engine = create_engine("mysql+mysqlconnector://root:mysqlroot!@localhost/projeto_game")
+engine = create_engine("mysql+mysqlconnector://daniel:1234@localhost/software_jogos")
 
 gamesSoldQuery = """
         SELECT Jogo.nome_jogo, COUNT(Compra_Jogo.id_jogo) AS quantidade_compras
