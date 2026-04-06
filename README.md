@@ -52,4 +52,46 @@ O projeto foi desenvolvido nas seguintes etapas:
 - MySQL
 - Python
 - Excel
-- MySQL Workbench
+- DBeaver
+
+## Como Executar o Projeto
+
+### 1. Pré-requisitos
+Certifique-se de ter instalado:
+
+- MySQL  
+- DBeaver  
+- Python 3.10+  
+
+---
+
+### 2. Configurar o Banco de Dados
+
+1. Abra o DBeaver e conecte ao MySQL  
+2. Crie um novo banco de dados (ex: `software_jogos`)  
+3. Execute os scripts SQL na seguinte ordem:
+
+```bash
+create.sql
+insert.sql
+```
+
+---
+
+## 3. Instalar Dependências
+
+No terminal, dentro da pasta do projeto:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 4. Configurar o Banco de Dados e a Conexão no Python
+
+Se for necessário, mude o host e password nessa linha do arquivo main.py:
+
+```python
+engine = create_engine("mysql+mysqlconnector://daniel:1234@localhost/software_jogos")
+```
