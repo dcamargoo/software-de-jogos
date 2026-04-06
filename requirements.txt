@@ -2,4 +2,3 @@ sqlalchemy
 pandas
 matplotlib
 mysql-connector-python
-python3-tk
