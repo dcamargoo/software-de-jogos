@@ -1,3 +1,5 @@
+USE software_jogos;
+
 INSERT INTO Usuario (id_usuario, nome_usuario, data_cadastro) VALUES
 (1463, 'Batfreak6', '2015-06-12'),
 (1201, 'SrJepetola', '2009-03-01'),
@@ -6,20 +8,20 @@ INSERT INTO Usuario (id_usuario, nome_usuario, data_cadastro) VALUES
 (2135, 'JPMax', '2020-03-03');
 
 INSERT INTO Jogo (id_jogo, nome_jogo, preco_jogo, genero, desenvolvedora, publicadora) VALUES
-(100, 'Dark souls : Remastered', 'R$154.90', 'RPG', 'FromSoftware/QLOC', 'Bandai Namco'),
-(101, 'Dark souls 2', 'R$154.90', 'RPG', 'FromSoftware', 'Bandai Namco'),
-(102, 'Dark souls 3', 'R$229.90', 'RPG', 'FromSoftware', 'Bandai Namco'),
-(103, 'Elden Ring', 'R$229.90', 'RPG', 'FromSoftware', 'Bandai Namco'),
-(104, 'Sekiro', 'R$199.99', 'Aventura', 'FromSoftware/Activision', 'FromSoftware'),
-(105, 'Bloodborne','R$99.50', 'RPG', 'FromSoftware', 'Sony Computer Entertainment'),
-(106, 'Counter Strike Source 2', 'Free', 'FPS', 'Valve', 'Valve'),
-(107, 'Lego Star Wars The Complete Saga', 'R$599.99', 'Aventura', 'Traveller’s Tales', 'LucasArts/Disney'),
-(108, 'Fortnite', 'Free', 'Battle Royale', 'Epic Games Studio', 'Epic Games'),
-(109, 'Destiny 2', 'Free', 'MMORPG', 'Bungie', 'Bungie'),
-(110, 'Overwatch 2', 'Free', 'FPS', 'Blizzard', 'Blizzard Entertainment'),
-(111, 'Assassin’s Creed Unity', 'R$89.99', 'Ação', 'Ubisoft', 'Ubisoft'),
-(112, 'Hollow Knight', 'R$46.99', 'Aventura', 'Team Cherry', 'Team Cherry'),
-(113, 'Mana Spark', 'R$24.89', 'RPG', 'Kishimoto Studio', 'BEHEMUTT');
+(100, 'Dark souls : Remastered', 154.90, 'RPG', 'FromSoftware/QLOC', 'Bandai Namco'),
+(101, 'Dark souls 2', 154.90, 'RPG', 'FromSoftware', 'Bandai Namco'),
+(102, 'Dark souls 3', 229.90, 'RPG', 'FromSoftware', 'Bandai Namco'),
+(103, 'Elden Ring', 229.90, 'RPG', 'FromSoftware', 'Bandai Namco'),
+(104, 'Sekiro', 199.99, 'Aventura', 'FromSoftware/Activision', 'FromSoftware'),
+(105, 'Bloodborne', 99.50, 'RPG', 'FromSoftware', 'Sony Computer Entertainment'),
+(106, 'Counter Strike Source 2', 0.00, 'FPS', 'Valve', 'Valve'),
+(107, 'Lego Star Wars The Complete Saga', 599.99, 'Aventura', 'Traveller’s Tales', 'LucasArts/Disney'),
+(108, 'Fortnite', 0.00, 'Battle Royale', 'Epic Games Studio', 'Epic Games'),
+(109, 'Destiny 2', 0.00, 'MMORPG', 'Bungie', 'Bungie'),
+(110, 'Overwatch 2', 0.00, 'FPS', 'Blizzard', 'Blizzard Entertainment'),
+(111, 'Assassin’s Creed Unity', 89.99, 'Ação', 'Ubisoft', 'Ubisoft'),
+(112, 'Hollow Knight', 46.99, 'Aventura', 'Team Cherry', 'Team Cherry'),
+(113, 'Mana Spark', 24.89, 'RPG', 'Kishimoto Studio', 'BEHEMUTT');
 
 INSERT INTO Compra_Jogo (id_jogo, id_usuario, data_compra_jogo) VALUES
 (112, 1463, '2023-08-20'),
@@ -37,20 +39,20 @@ INSERT INTO Compra_Jogo (id_jogo, id_usuario, data_compra_jogo) VALUES
 (110, 2135, '2023-03-11');
 
 INSERT INTO Expansao (id_expansao, nome_expansao, preco_expansao, id_jogo) VALUES
-(10, 'Artorias of the Abyss', 'R$30,00', 100),
-(11, 'Crown of the Old Iron King', 'R$53,99', 101),
-(12, 'The Ringed City', 'R$149,99', 102),
-(13, 'Shadow of the Erdtree', 'R$199,99', 103),
-(14, 'Shadows Died Once', 'R$99,99', 104),
-(15, 'The Old Hunters', 'R$49,75', 105),
-(16, 'Shadow Keep', 'R$89,99', 109),
-(17, 'Witch Queen', 'R$109,99', 109),
-(18, 'Beyond Light', 'R$109,99', 109),
-(19, 'Light Fall', 'R$189,99', 110),
-(20, 'Invasion', 'R$189,99', 110),
-(21, 'Silk Song', 'Free', 112),
-(22, 'Trupe Grimm', 'R$89,99', 112),
-(23, 'Spark Return´s', 'R$159,99', 113);
+(10, 'Artorias of the Abyss', 30.00, 100),
+(11, 'Crown of the Old Iron King', 53.99, 101),
+(12, 'The Ringed City', 149.99, 102),
+(13, 'Shadow of the Erdtree', 199.99, 103),
+(14, 'Shadows Died Once', 99.99, 104),
+(15, 'The Old Hunters', 49.75, 105),
+(16, 'Shadow Keep', 89.99, 109),
+(17, 'Witch Queen', 109.99, 109),
+(18, 'Beyond Light', 109.99, 109),
+(19, 'Light Fall', 189.99, 110),
+(20, 'Invasion', 189.99, 110),
+(21, 'Silk Song', 0.00, 112),
+(22, 'Trupe Grimm', 89.99, 112),
+(23, 'Spark Returns', 159.99, 113);
 
 INSERT INTO Compra_Expansao (id_expansao, id_usuario, data_compra_expansao) VALUES
 (10, 1674, '2023-09-03'),
