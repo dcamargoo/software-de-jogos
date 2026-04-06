@@ -78,7 +78,7 @@ insert.sql
 
 ---
 
-## 3. Instalar Dependências
+### 3. Instalar Dependências
 
 No terminal, dentro da pasta do projeto:
 
@@ -88,7 +88,7 @@ pip install -r requirements.txt
 
 ---
 
-## 4. Configurar o Banco de Dados e a Conexão no Python
+### 4. Conexão do Banco de Dados no Python
 
 Se for necessário, mude o host e password nessa linha do arquivo main.py:
 
