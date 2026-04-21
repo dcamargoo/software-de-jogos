@@ -52,7 +52,6 @@ O projeto foi desenvolvido nas seguintes etapas:
 - MySQL
 - Python
 - Excel
-- DBeaver
 
 ## Como Executar o Projeto
 
@@ -60,7 +59,7 @@ O projeto foi desenvolvido nas seguintes etapas:
 Certifique-se de ter instalado:
 
 - MySQL  
-- DBeaver  
+- DBeaver / MySQL Workbench  
 - Python 3.10+  
 
 ---
