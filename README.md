@@ -8,7 +8,7 @@ O desenvolvimento do projeto se inicia na modelagem do banco de dados, passando 
 
 ---
 
-## Objetivos do Projeto
+## Objetivos
 
 - Modelar um banco de dados consistente para uma plataforma de jogos online.
 - Representar corretamente os relacionamentos entre usuários, jogos, expansões e avaliações.
@@ -43,7 +43,7 @@ A modelagem contempla as seguintes regras de negócio:
 - Python
 - Excel
 
-## Como Executar o Projeto
+## Como Executar
 
 ### 1. Pré-requisitos
 Certifique-se de ter instalado:
