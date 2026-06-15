@@ -35,18 +35,6 @@ A modelagem contempla as seguintes regras de negócio:
 - Um usuário pode realizar no máximo uma avaliação para um mesmo jogo.
 - Um jogo pode receber avaliações de vários usuários.
 
-## Etapas do Projeto
-
-O projeto foi desenvolvido nas seguintes etapas:
-
-1. Levantamento das regras de negócio.
-2. Construção do Modelo Entidade-Relacionamento (MER).
-3. Elaboração do modelo relacional lógico.
-4. Criação das tabelas no banco de dados.
-5. Inserção de dados para simulação.
-6. Desenvolvimento de consultas SQL.
-7. Geração de análises com gráficos a partir dos dados obtidos.
-
 ## Tecnologias Utilizadas
 
 - MySQL
