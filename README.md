@@ -10,11 +10,11 @@ O desenvolvimento do projeto se inicia na modelagem do banco de dados, passando 
 
 ## Objetivos
 
-- Modelar um banco de dados consistente para uma plataforma de jogos online.
-- Representar corretamente os relacionamentos entre usuários, jogos, expansões e avaliações.
-- Implementar a estrutura lógica do banco de dados.
-- Permitir consultas para extração de informações relevantes do sistema.
-- Apoiar análises de dados por meio de gráficos, visando gerar insights para o negócio.
+- Modelar um banco de dados consistente para uma plataforma de jogos online
+- Representar corretamente os relacionamentos entre usuários, jogos, expansões e avaliações
+- Implementar a estrutura lógica do banco de dados
+- Permitir consultas para extração de informações relevantes do sistema
+- Apoiar análises de dados por meio de gráficos, visando gerar insights para o negócio
 
 ---
 
@@ -31,11 +31,11 @@ O banco de dados foi projetado para armazenar informações sobre:
 
 A modelagem contempla as seguintes regras de negócio:
 
-- Um usuário pode comprar vários jogos, e um jogo pode ser comprado por vários usuários.
-- Um usuário pode comprar várias expansões, desde que elas pertençam a jogos existentes.
-- Um jogo pode possuir várias expansões, mas cada expansão pertence a apenas um jogo.
-- Um usuário pode realizar no máximo uma avaliação para um mesmo jogo.
-- Um jogo pode receber avaliações de vários usuários.
+- Um usuário pode comprar vários jogos, e um jogo pode ser comprado por vários usuários
+- Um usuário pode comprar várias expansões, desde que elas pertençam a jogos existentes
+- Um jogo pode possuir várias expansões, mas cada expansão pertence a apenas um jogo
+- Um usuário pode realizar no máximo uma avaliação para um mesmo jogo
+- Um jogo pode receber avaliações de vários usuários
 
 ## Tecnologias Utilizadas
 
