@@ -39,18 +39,18 @@ A modelagem contempla as seguintes regras de negócio:
 
 ## Tecnologias Utilizadas
 
-- MySQL
-- Python
-- Excel
+- **MySQL**
+- **Python 3.10**
+- **Excel**
 
 ## Como Executar
 
 ### 1. Pré-requisitos
 Certifique-se de ter instalado:
 
-- MySQL  
-- DBeaver / MySQL Workbench  
-- Python 3.10+  
+- **MySQL**
+- **DBeaver / MySQL Workbench**  
+- **Python 3.10+**  
 
 ---
 
